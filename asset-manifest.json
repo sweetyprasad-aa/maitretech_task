@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/maitretech_task/static/css/main.12dd9a45.css",
+    "main.js": "/maitretech_task/static/js/main.3e89a1fa.js",
+    "static/media/artboard2.png": "/maitretech_task/static/media/artboard2.2c55f5f4c9f822a64e1b.png",
+    "static/media/kidl2.jpg": "/maitretech_task/static/media/kidl2.d87f962bafa39bb79d53.jpg",
+    "static/media/entrance-prepration3.jpg": "/maitretech_task/static/media/entrance-prepration3.191d3c0270ea796affa9.jpg",
+    "static/media/bfa.jpg": "/maitretech_task/static/media/bfa.6dc8fc8e37ba74c8a687.jpg",
+    "static/media/3mchc.jpg": "/maitretech_task/static/media/3mchc.03bf34994392a98759e6.jpg",
+    "static/media/1ydfa.jpg": "/maitretech_task/static/media/1ydfa.f4183f0a71c37e57fe5c.jpg",
+    "static/media/ma.jpg": "/maitretech_task/static/media/ma.f851d0a3a6e5c2681c6e.jpg",
+    "static/media/2ydfa.jpg": "/maitretech_task/static/media/2ydfa.b48c139aca7c588a4c60.jpg",
+    "static/media/animation-sketching.jpg": "/maitretech_task/static/media/animation-sketching.7d5af62bbbd1607cc836.jpg",
+    "static/media/entrance-prepration2.jpg": "/maitretech_task/static/media/entrance-prepration2.2ce641ad6ccd13ae726b.jpg",
+    "static/media/1952342548home-banner5.jpg": "/maitretech_task/static/media/1952342548home-banner5.2116d9895f3c93efce5a.jpg",
+    "static/media/1550551577home-banner1.jpg": "/maitretech_task/static/media/1550551577home-banner1.5531b72959a7c2756481.jpg",
+    "static/media/kidl1.jpg": "/maitretech_task/static/media/kidl1.f4c7557a3ec15df4e3cc.jpg",
+    "static/media/1858311846home-banner4.jpg": "/maitretech_task/static/media/1858311846home-banner4.ab02098017be42b52fb0.jpg",
+    "static/media/1922909411home-banner3.jpg": "/maitretech_task/static/media/1922909411home-banner3.1746e29be2fceb159da6.jpg",
+    "static/media/appbg.jpg": "/maitretech_task/static/media/appbg.f12948a8347db2b4836e.jpg",
+    "static/media/student-talk.jpg": "/maitretech_task/static/media/student-talk.f9f1e4d9081a06cfcecf.jpg",
+    "static/media/hccfk.jpg": "/maitretech_task/static/media/hccfk.a433b21b6fd11405dad3.jpg",
+    "static/media/1273170038home-banner2.jpg": "/maitretech_task/static/media/1273170038home-banner2.836fde7c086a8ab17514.jpg",
+    "static/media/entrance-prepration.jpg": "/maitretech_task/static/media/entrance-prepration.3ab099e3dcdfbdaf3c90.jpg",
+    "static/media/fotbg2.jpeg": "/maitretech_task/static/media/fotbg2.646459b1a7b92da7fde1.jpeg",
+    "static/media/appstore.png": "/maitretech_task/static/media/appstore.76feb683863dc42b3409.png",
+    "static/media/nifa-new-logo.png": "/maitretech_task/static/media/nifa-new-logo.225b285db38762ff2a43.png",
+    "index.html": "/maitretech_task/index.html",
+    "main.12dd9a45.css.map": "/maitretech_task/static/css/main.12dd9a45.css.map",
+    "main.3e89a1fa.js.map": "/maitretech_task/static/js/main.3e89a1fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12dd9a45.css",
+    "static/js/main.3e89a1fa.js"
+  ]
+}
