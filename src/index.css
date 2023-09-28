@@ -1,13 +1,211 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* -------navbar-css------ */
+.top-header-list {
+  display: flex;
+  list-style: none;
 }
+
+.top-header-item a {
+  color: white;
+}
+
+.top-header-icon {
+  text-decoration: none;
+}
+
+.nav-item .nav-link {
+  color: black;
+}
+
+.top-header {
+  background: linear-gradient(90deg, #812868 0%, #f954a4 100%);
+}
+
+@media screen and (max-width:768px) {
+  .header1 {
+    width: 100%
+  }
+
+  .header2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:912px) {
+  .header1 {
+    width: 100%
+  }
+
+  .header2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .header1 {
+    width: 100%
+  }
+
+  .header2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* --------Slider-css----- */
+.scrolling-text {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 20px;
+  color: #812868;
+  animation: scroll 80s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* --------Content-css------ */
+.content_para {
+  padding: 0px 22px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.content-btn {
+  border: 2px solid white;
+  color: white;
+  border-radius: 18px;
+  font-size: 17px;
+  background: linear-gradient(90deg, rgba(177, 30, 111, 1)0%, rgba(74, 14, 192, 1)100%);
+}
+
+.bg-img {
+  background-image: url('assets/images/appbg.jpg');
+  height: auto;
+  width: 100vw;
+  background-size: cover;
+  background-position: 100%;
+  background-color: #000000cf;
+  background-blend-mode: hue;
+  background-attachment: fixed;
+}
+
+.download-img {
+  width: 35%;
+}
+
+/* -------Card-css------ */
+.cardBg-img {
+  background-image: url('assets/images/artboard2.png');
+  height: auto;
+  width: 100vw;
+  background-size: cover;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  transition: transform 0.2s ease;
+  box-shadow: 0px 8px 15px #bebebe,
+    6px 11px 5px #ffffff;
+}
+
+@media screen and (max-width:768px) {
+  .card-column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .card-column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .card-column {
+    width: 100%
+  }
+}
+
+/* ------Testinomial-css----- */
+.testi_bgImg {
+  background-image: url('assets/images/student-talk.jpg');
+  height: auto;
+  width: 100vw;
+  background-size: cover;
+  background-position: 100%;
+  background-color: #3f2c0970;
+  background-blend-mode: hue;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width:768px) {
+  .video-column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:912px) {
+  .video-column {
+    width: 100%;
+  }
+}
+@media screen and (max-width:576px) {
+  .video-column{
+    width: 100%;
+  }
+  
+}
+
+/* -----footer-css----- */
+.footer-bgImg {
+  background-image: url('assets/images/fotbg2.jpeg');
+  height: auto;
+  width: 100vw;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: #0000009e;
+  line-height: 2;
+}
+
+/* -------gallery-css----- */
+/* .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 100%;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 10px;
+  width:auto;
+  height: 200px;
+  object-fit: cover;
+}
+.grid-item img{
+  width: 100%;
+  height: 100%;
+} */
