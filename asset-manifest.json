@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maitretech_task/static/css/main.12dd9a45.css",
-    "main.js": "/maitretech_task/static/js/main.3e89a1fa.js",
+    "main.css": "/maitretech_task/static/css/main.a9ae8f9c.css",
+    "main.js": "/maitretech_task/static/js/main.ff64bbd5.js",
     "static/media/artboard2.png": "/maitretech_task/static/media/artboard2.2c55f5f4c9f822a64e1b.png",
     "static/media/kidl2.jpg": "/maitretech_task/static/media/kidl2.d87f962bafa39bb79d53.jpg",
     "static/media/entrance-prepration3.jpg": "/maitretech_task/static/media/entrance-prepration3.191d3c0270ea796affa9.jpg",
@@ -26,11 +26,11 @@
     "static/media/appstore.png": "/maitretech_task/static/media/appstore.76feb683863dc42b3409.png",
     "static/media/nifa-new-logo.png": "/maitretech_task/static/media/nifa-new-logo.225b285db38762ff2a43.png",
     "index.html": "/maitretech_task/index.html",
-    "main.12dd9a45.css.map": "/maitretech_task/static/css/main.12dd9a45.css.map",
-    "main.3e89a1fa.js.map": "/maitretech_task/static/js/main.3e89a1fa.js.map"
+    "main.a9ae8f9c.css.map": "/maitretech_task/static/css/main.a9ae8f9c.css.map",
+    "main.ff64bbd5.js.map": "/maitretech_task/static/js/main.ff64bbd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.12dd9a45.css",
-    "static/js/main.3e89a1fa.js"
+    "static/css/main.a9ae8f9c.css",
+    "static/js/main.ff64bbd5.js"
   ]
 }
