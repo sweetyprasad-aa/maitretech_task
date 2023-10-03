@@ -23,30 +23,35 @@ const Slider = ()=>{
         {/* <!-- The slideshow/carousel --> */}
         <div className="carousel-inner">
             <div className="carousel-item active">
-            <img src={sliderImg1}alt="img" className="d-block" />
+            <img src={sliderImg1}alt="img" className="img-fluid" width={"100%"} />
             </div>
             <div className="carousel-item">
-            <img src={sliderImg2} alt="img" className="d-block" />
+            <img src={sliderImg2} alt="img" className="img-fluid" width={"100%"}/>
             </div>
             <div className="carousel-item">
-            <img src={sliderImg3} alt="img" className="d-block" />
+            <img src={sliderImg3} alt="img" className="img-fluid" width={"100%"}/>
             </div>
             <div className="carousel-item">
-            <img src={sliderImg4} alt="img" className="d-block" />
+            <img src={sliderImg4} alt="img" className="img-fluid" width={"100%"}/>
             </div>
             <div className="carousel-item">
-            <img src={sliderImg5} alt="img" className="d-block" />
+            <img src={sliderImg5} alt="img" className="img-fluid" width={"100%"}/>
             </div>
         </div>
         
         {/* <!-- Left and right controls/icons --> */}
-        <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon"></span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span className="carousel-control-next-icon"></span>
-        </button>
-            </div>
+        <div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
+            </button>
+        </div>
+
+        <div>
+            <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span className="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
         
         <div className="container">
             <div className='row'>

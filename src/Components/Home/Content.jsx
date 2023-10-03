@@ -7,15 +7,13 @@ const Content = () => {
     const videoUrl = "https://www.youtube.com/embed/-9cJjaLXKqE?rel=0";
 
     const opts = {
-        height: '380px',
-        width: '100%',
         playerVars: {
         autoplay: 0, // Set to 1 for autoplay
     },
 };
   return (
     <>
-      <section className='mt-5 p-4'>
+      <section className='mt-5 p-3'>
             <div className='container'>
                 <div className="row text-center">
                     <div>
@@ -41,8 +39,8 @@ const Content = () => {
       <section className="bg-img p-5 mt-5">
             <div className='container'>
                 <div className='row'>
-                    <div className='col-sm-5 text-white'>
-                        <div >
+                    <div className='col-sm-5 text-white content-column' >
+                        <div className="content-text-column" >
                             <h2 className='overflow-hidden mt-3'>Online Classes</h2>
                             <p>Dear Students/Parents, Nifa presents its Learning App for your regular art practice in which we have added many amazing features Like: Step-by-step recorded demo videos prepared by your faculty members. Regular assessment of your practise through assignment section. Live class section from same app. Attendance, payment invoice, art news, announcements, important information and direct connect with the management team are some more features. So hurry up n join now to experience personalised coaching by experts sitting at your home.</p>
                             <p>We wish u Happy Learning. Stay Safe n Healthy.</p>
@@ -56,7 +54,7 @@ const Content = () => {
                     </div>
                     <div className='col-sm-7'>
                         <div className='embed-responsive embed-responsive-16by9 mt-5'>
-                            <iframe src={videoUrl} style={opts} className="embed-responsive-item img-thumbnail" title="nifa"></iframe>     
+                            <iframe src={videoUrl} style={opts} className="embed-responsive-item content-video img-thumbnail" title="nifa"></iframe>     
                         </div>
                     </div>
                 </div>

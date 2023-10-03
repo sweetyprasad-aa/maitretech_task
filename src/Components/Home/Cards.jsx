@@ -84,7 +84,7 @@ const Cards = () => {
                     {
                         cardImg.map((item)=>
                             <div className='col-sm-3 p-3 mt-3 card-column' key={item.id}>
-                                <div className="card">
+                                <div className="card text-center">
                                     <img src={item.imgs} alt="img"  className='img-fluid' width={'100%'}/>
                                     <div className="card-body p-3">
                                         <p className="card-text">{item.desc}</p>   

@@ -7,8 +7,6 @@ const Testinomial = () => {
 // ]
   
   const description = {
-        height: '215px',
-        width: '100%',
         playerVars: {
         autoplay: 0, // Set to 1 for autoplay
     },
@@ -37,38 +35,38 @@ const Testinomial = () => {
               <div>
                 <h3 className="text-center text-white">Student's Testimonial</h3>
               </div>
-              <div className='col-sm-4 mt-4 video-column'>
+              <div className='col-sm-4 mt-4 testinomial-column'>
                 <div className="">
-                  <iframe src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item img-thumbnail"></iframe>
+                  <iframe src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item testinomial-video img-thumbnail"></iframe>
                 </div>
               </div>
-              <div className='col-sm-4 mt-4 video-column'>
+              <div className='col-sm-4 mt-4 testinomial-column'>
                 <div className="">
-                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item img-thumbnail"></iframe>
+                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item testinomial-video img-thumbnail"></iframe>
                 </div>
               </div>
-              <div className='col-sm-4 mt-4 video-column'>
+              <div className='col-sm-4 mt-4 testinomial-column'>
                 <div className="">
-                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item img-thumbnail" ></iframe>
+                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item testinomial-video img-thumbnail" ></iframe>
                 </div>
               </div>
             </div>
 
             {/* 2nd-row */}
             <div className='row mt-4'>
-              <div className='col-sm-4 video-column'>
+              <div className='col-sm-4 mt-3 testinomial-column'>
                 <div className="">
-                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item img-thumbnail"></iframe>
+                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item testinomial-video img-thumbnail"></iframe>
                 </div>
               </div>
-              <div className='col-sm-4 video-column'>
+              <div className='col-sm-4  mt-3 testinomial-column'>
                 <div className="">
-                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item img-thumbnail"></iframe>
+                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item testinomial-video img-thumbnail"></iframe>
                 </div>
               </div>
-              <div className='col-sm-4 video-column'>
+              <div className='col-sm-4  mt-3 testinomial-column'>
                 <div className="">
-                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item img-thumbnail"></iframe>
+                  <iframe  src="https://www.youtube.com/embed/VrGcY2k5zuc?si=DR7a_pT8rfn5AKO3" title="YouTube video player" style={description} className="embed-responsive-item testinomial-video img-thumbnail"></iframe>
                 </div>
               </div>
             </div>
